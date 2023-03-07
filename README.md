@@ -7,11 +7,13 @@ For the official Oura repository see the following link:
 
 # Presentation
 
-The slides for the *Cloud Native Event Streaming* talk, as presented at Rust MeetUp Basel.
+The slides for the *Cloud Native Event Streaming* talk, as presented at the Rust MeetUp Basel:
 
 [![Slides](https://github.com/4TT1L4/oura-demo/blob/main/snapshot.jpg?raw=true "Cloud Native Event Streaming Slides")](https://docs.google.com/presentation/d/1zBH7x-Yln9tZ3LyoJEKz9O8kPbdHJmqvunNo44fwALI/edit?usp=sharing)
 
 # Running the example
+
+The mentioned example can be started using the following commands:
 
 ``` sh
 docker build -t oura_demo .
