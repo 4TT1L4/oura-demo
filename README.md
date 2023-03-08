@@ -1,7 +1,7 @@
 # oura-demo
 
 ## Overview
-This repository contains a simple examle to run Oura in a docker container.
+This repository contains the presentation slides for the *Cloud Native Event Streaming* talk and a simple example to run Oura in a docker container.
 
 For the official Oura repository see the following link:
  - https://github.com/txpipe/oura
