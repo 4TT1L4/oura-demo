@@ -37,7 +37,7 @@ then after this:
 CTRL + C
 ```
 
-Alternatively the example can be stopped by using the following command:
+Alternatively the example can be stopped by running the following command in a different terminal:
 
 ```
 docker stop $(docker ps -a -q --filter ancestor=oura_demo --format="{{.ID}}")
