@@ -22,3 +22,25 @@ The mentioned example can be started using the following commands:
 docker build -t oura_demo .
 docker run -it oura_demo
 ```
+
+## Stopping the example
+
+The example can be stopped by hitting:
+
+```
+CTRL + Z
+```
+
+then after this:
+
+```
+CTRL + C
+```
+
+Alternatively the example can be stopped by using the following command:
+
+```
+docker stop $(docker ps -a -q --filter ancestor=oura_demo --format="{{.ID}}")
+```
+
+This command stops all the docker running containers with the image name `oura_demo`.
